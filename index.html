@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ne">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Dhading Diary — धादिङको खबर, तपाईंको हातमा।">
+<title>Dhading Diary | धादिङको खबर</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Dhading Diary गृहपृष्ठ">
+        <span class="brand-mark">DD</span>
+        <span><strong>DHADING DIARY</strong><small>धादिङको खबर, तपाईंको हातमा</small></span>
+      </a>
+      <button class="menu-btn" aria-label="Menu" onclick="toggleMenu()">☰</button>
+    </div>
+  </div>
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="active" href="index.html">गृहपृष्ठ</a>
+      <a href="category.html?cat=धादिङ">धादिङ</a>
+      <a href="category.html?cat=अर्थ">अर्थ</a>
+      <a href="category.html?cat=पर्यटन">पर्यटन</a>
+      <a href="category.html?cat=खेलकुद">खेलकुद</a>
+      <a href="category.html?cat=मौसम">मौसम</a>
+      <a href="contact.html">सम्पर्क</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="breaking"><div class="container breaking-inner"><span>ब्रेकिङ</span><div id="breakingText">धादिङ डायरीमा तपाईंलाई स्वागत छ — स्थानीय खबरका लागि हामीसँग जोडिनुहोस्।</div></div></section>
+
+<section class="hero container">
+  <article class="hero-main">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80" alt="मुख्य समाचार">
+    <div class="hero-overlay">
+      <span class="tag">धादिङ</span>
+      <h1>धादिङका महत्वपूर्ण खबर अब एउटै ठाउँमा</h1>
+      <p>स्थानीय समाचार, अर्थ, पर्यटन, खेलकुद र मौसमका अपडेट पढ्नुहोस्।</p>
+    </div>
+  </article>
+  <div class="hero-side">
+    <article class="mini-card">
+      <img src="https://images.unsplash.com/photo-1521292270410-a8c4d716d518?auto=format&fit=crop&w=700&q=80" alt="">
+      <div><span class="tag">पर्यटन</span><h3>धादिङका आकर्षक गन्तव्यहरू</h3><small>आज • १०:३०</small></div>
+    </article>
+    <article class="mini-card">
+      <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=700&q=80" alt="">
+      <div><span class="tag">खेलकुद</span><h3>स्थानीय खेलकुदका पछिल्ला गतिविधि</h3><small>आज • ०९:१५</small></div>
+    </article>
+  </div>
+</section>
+
+<section class="container section">
+  <div class="section-head"><h2>ताजा समाचार</h2><a href="category.html?cat=धादिङ">सबै हेर्नुहोस् →</a></div>
+  <div class="news-grid">
+    <article class="news-card"><img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=900&q=80" alt=""><div class="pad"><span class="tag">धादिङ</span><h3>स्थानीय तहका गतिविधि र पछिल्ला अपडेट</h3><p>धादिङबाट प्राप्त महत्वपूर्ण समाचार तथा जानकारी।</p><small>२ अक्टोबर २०२६ • ०८:४५</small></div></article>
+    <article class="news-card"><img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80" alt=""><div class="pad"><span class="tag">अर्थ</span><h3>स्थानीय बजार र आर्थिक गतिविधि</h3><p>व्यापार, बजार र अर्थतन्त्रसँग सम्बन्धित नयाँ अपडेट।</p><small>२ अक्टोबर २०२६ • ०८:१०</small></div></article>
+    <article class="news-card"><img src="https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&w=900&q=80" alt=""><div class="pad"><span class="tag">समाज</span><h3>समुदायका महत्वपूर्ण गतिविधि</h3><p>स्थानीय समाज र समुदायका गतिविधिको जानकारी।</p><small>१ अक्टोबर २०२६ • १९:२०</small></div></article>
+  </div>
+</section>
+
+<section class="container category-row">
+  <div class="section-head"><h2>पर्यटन</h2><a href="category.html?cat=पर्यटन">थप समाचार →</a></div>
+  <div class="feature-list">
+    <article><img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=80" alt=""><div><span class="tag">पर्यटन</span><h3>प्रकृति र संस्कृतिले भरिएको धादिङ</h3><p>घुम्नलायक स्थान, स्थानीय संस्कृति र पर्यटकीय सम्भावनाबारे पढ्नुहोस्।</p></div></article>
+    <article><img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=900&q=80" alt=""><div><span class="tag">पर्यटन</span><h3>धादिङका ग्रामीण गन्तव्य</h3><p>स्थानीय गन्तव्यलाई चिनाउने विशेष सामग्री।</p></div></article>
+  </div>
+</section>
+
+<section class="container share-box">
+  <div><strong>Dhading Diary लाई Facebook मा शेयर गर्नुहोस्</strong><p>स्थानीय खबर धेरै मानिससम्म पुर्‍याउन सहयोग गर्नुहोस्।</p></div>
+  <button onclick="sharePage()">Facebook मा शेयर</button>
+</section>
+</main>
+
+<footer>
+  <div class="container footer-grid">
+    <div><div class="footer-brand">DHADING DIARY</div><p>धादिङको खबर, तपाईंको हातमा।</p></div>
+    <div><strong>समाचार</strong><a href="category.html?cat=धादिङ">धादिङ</a><a href="category.html?cat=अर्थ">अर्थ</a><a href="category.html?cat=पर्यटन">पर्यटन</a></div>
+    <div><strong>अन्य</strong><a href="category.html?cat=खेलकुद">खेलकुद</a><a href="category.html?cat=मौसम">मौसम</a><a href="contact.html">सम्पर्क</a></div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Dhading Diary. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
